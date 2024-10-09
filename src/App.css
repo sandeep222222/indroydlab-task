@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app-container{
+  background-image: url("https://pbs.twimg.com/ext_tw_video_thumb/1430113963283410944/pu/img/HJZ5Cp97N6wkNQsL.jpg:large");
   min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+
+
+.appBg-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.kbcLogo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description {
+  color: #fff;
+  font-size: 20px;
+}
+
+.leaderBoardHeading {
+  color: #fff;
+  font-size: 20px;
+}
+
+.plaersList {
+  list-style: none;
+
+}
+
+.startButton {
+  background-color: #216ca5;
+  color: #fff;
+  height: 35px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+
+.qr-container {
+ 
+  border-radius: 16px;
+ 
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+ 
+  padding: 40px;
+  width: 50%;
+}
+
+.completedText{
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.leaderBoardText{
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
 }
